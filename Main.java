@@ -61,7 +61,7 @@ public class Main
         boolean i = !(X & Z) | Y;             //  не (X и Z) или Y;
         boolean j = X & !Y | Z;               //  X и не Y или Z;
         boolean k = X &(!Y | Z);              //  X и (не Y или Z);
-        boolean l =X |(!(Z | Y));             //  X или (не (Y или Z));
+        boolean l = X |(!(Z | Y));             //  X или (не (Y или Z));
 
         System.out.println("X или Y и не Z "+ g);
         System.out.println("не X и не Y = "+ h);
